@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>ReCaptcha</title>
+	<!-- build:css css/vendor.css -->
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<!-- endbuild -->
+	<!-- build:css css/main.min.css -->
+	<link rel="stylesheet" type="text/css" href="app/css/main.css">
+	<!-- endbuild -->
+</head>
+<body>
+	<video id="localVideo" autoplay></video>
+	<video id="remoteVideo" autoplay></video>
+
+	<div>
+	<button id="startButton">Start</button>
+	<button id="callButton">Call</button>
+	<button id="hangupButton">Hang Up</button>
+	</div>
+
+
+	<!-- build:js scripts/main.min.js -->
+	<script type="text/javascript" src="app/js/main.js"></script>
+	<!-- endbuild -->
+</body>
+</html>
